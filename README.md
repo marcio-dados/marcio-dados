@@ -71,6 +71,12 @@
 <div align="center">
 
 <!-- TIRINHA:START -->
+<a href="https://www.tirinhas.com.br/postagem.php?id=1759204148">
+  <img src="assets/tirinha.jpg" alt="Tirinha do dia" width="50%" />
+</a>
+<br/>
+<sub>Fonte: <a href="https://www.tirinhas.com.br/">tirinhas.com.br</a></sub>
+
 <!-- TIRINHA:END -->
 
 </div>
