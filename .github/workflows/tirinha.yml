@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write          # push e commits
-  pull-requests: write     # criar/gerir PRs
+  contents: write
+  pull-requests: write
 
 concurrency:
   group: tirinha-${{ github.ref }}
@@ -16,7 +16,6 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout (main)
         uses: actions/checkout@v4
@@ -40,6 +39,7 @@ jobs:
 
       - name: Verificar se há mudanças relevantes
         id: diff
+        shell: bash
         run: |
           set -e
           CHANGED="no"
@@ -47,15 +47,15 @@ jobs:
           if ! git diff --quiet -- README.md assets/tirinha.jpg; then
             CHANGED="yes"
           fi
-          echo "changed=$CHANGED" >> $GITHUB_OUTPUT
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
 
       - name: Preparar commit na branch fixa
         if: steps.diff.outputs.changed == 'yes'
+        shell: bash
         run: |
           set -e
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # cria/atualiza branch fixa a partir da main
           git checkout -B bot/tirinha
           git add README.md assets/tirinha.jpg
           git commit -m "chore: atualiza tirinha do dia" || echo "Nada para commitar"
@@ -66,11 +66,11 @@ jobs:
         id: pr
         uses: actions/github-script@v7
         with:
-          # aqui podemos usar o próprio GITHUB_TOKEN
           script: |
             const head = 'bot/tirinha';
             const base = context.payload.repository.default_branch || 'main';
-            // Procura PR aberto existente
+
+            // Verifica se já existe PR aberto dessa branch
             const { data: prs } = await github.rest.pulls.list({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -78,45 +78,43 @@ jobs:
               head: `${context.repo.owner}:${head}`,
               base
             });
+
             let pr;
+            const title = 'Atualiza tirinha do dia';
+            const body = [
+              'Atualização automática do bloco de tirinha no README.',
+              '- Atualiza `assets/tirinha.jpg`',
+              '- Reescreve o trecho entre `<!-- TIRINHA:START -->` e `<!-- TIRINHA:END -->`'
+            ].join('\n');
+
             if (prs.length > 0) {
               pr = prs[0];
-              // Atualiza título/corpo se quiser
               await github.rest.pulls.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 pull_number: pr.number,
-                title: 'Atualiza tirinha do dia',
-                body: [
-                  'Atualização automática do bloco de tirinha no README.',
-                  '- Atualiza `assets/tirinha.jpg`',
-                  '- Reescreve o trecho entre `<!-- TIRINHA:START -->` e `<!-- TIRINHA:END -->`'
-                ].join('\n')
+                title,
+                body
               });
             } else {
-              // Cria PR novo
               const { data } = await github.rest.pulls.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 head,
                 base,
-                title: 'Atualiza tirinha do dia',
-                body: [
-                  'Atualização automática do bloco de tirinha no README.',
-                  '- Atualiza `assets/tirinha.jpg`',
-                  '- Reescreve o trecho entre `<!-- TIRINHA:START -->` e `<!-- TIRINHA:END -->`'
-                ].join('\n')
+                title,
+                body
               });
               pr = data;
             }
-            core.setOutput('number', pr.number);
 
-      # (Opcional) Auto-approve usando PAT de outro usuário (não o bot)
-      - name: Auto-approve PR
-        if: steps.pr.outputs.number && steps.pr.outputs.number != '' 
+            core.setOutput('number', String(pr.number));
+
+      - name: Auto-approve PR (com PAT de outra conta)
+        if: steps.pr.outputs.number && steps.pr.outputs.number != ''
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.PR_TOKEN }}   # usuário diferente do autor (github-actions[bot])
+          github-token: ${{ secrets.PR_TOKEN }}
           script: |
             const prNumber = Number(process.env.PR_NUMBER);
             await github.rest.pulls.createReview({
@@ -126,31 +124,30 @@ jobs:
               event: 'APPROVE',
               body: 'Auto-approve by bot.'
             });
-          env:
-            PR_NUMBER: ${{ steps.pr.outputs.number }}
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
 
-      # Ligar auto-merge (GraphQL). Requer Allow auto-merge = ON
       - name: Habilitar Auto-merge (squash)
-        if: steps.pr.outputs.number && steps.pr.outputs.number != '' 
+        if: steps.pr.outputs.number && steps.pr.outputs.number != ''
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.PR_TOKEN }}   # token com permissão de PRs
+          github-token: ${{ secrets.PR_TOKEN }}
           script: |
             const prNumber = Number(process.env.PR_NUMBER);
-            // pega o node_id do PR para usar no GraphQL
             const { data: pr } = await github.rest.pulls.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: prNumber
             });
+
             const query = `
-              mutation($pullRequestId: ID!) {
+              mutation($id: ID!) {
                 enablePullRequestAutoMerge(input: {
-                  pullRequestId: $pullRequestId,
+                  pullRequestId: $id,
                   mergeMethod: SQUASH
                 }) { clientMutationId }
               }
             `;
-            await github.graphql(query, { pullRequestId: pr.node_id });
-          env:
-            PR_NUMBER: ${{ steps.pr.outputs.number }}
+            await github.graphql(query, { id: pr.node_id });
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
