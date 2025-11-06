@@ -12,7 +12,7 @@
   <a href="mailto:marcioferreira_junior@hotmail.com"><img alt="Outlook" src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
   <a href="https://api.whatsapp.com/send?phone=5516988308470&text=Oi%20M%C3%A1rcio%2C%20vim%20pelo%20GitHub."><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
  <!--  <a href="https://www.kaggle.com/marcio-dados"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"></a> -->
-  <a href="https://pt.wikipedia.org/wiki/Ribeir%C3%A3o_Preto"><img alt="Local" src="https://img.shields.io/badge/Ribeir%C3%A3o%20Preto%20%E2%80%93%20SP-555?style=for-the-badge">
+  <a href="https://pt.wikipedia.org/wiki/Ribeir%C3%A3o_Preto"><img alt="Local" src="https://img.shields.io/badge/Ribeir%C3%A3o%20Preto%20%E2%80%93%20SP-555?style=for-the-badge"></a>
 </p>
    
 <details>
@@ -23,7 +23,7 @@
 </details>
 
 ---
-
+<!-- 
 ## Estatísticas
 <div align="center">
   <picture>
@@ -43,17 +43,19 @@
 </p>
 
 ---
+-->
 
-## Conteúdo leve (Tirinhas)
-**BR**  
+<!-- ## Conteúdo leve (Tirinhas)
+<!-- **BR**  
 <!-- BLOG-POST-LIST:START -->
-- [Alegria matinal](https://johnywalves.com.br/comic-29/)
-- [Motivação Criativa](https://johnywalves.com.br/comic-28/)
-- [Escrito por ChatGPT](https://johnywalves.com.br/comic-27/)
-- [Análise profissional](https://johnywalves.com.br/comic-26/)
-- [Lidando com Erros](https://johnywalves.com.br/comic-25/)
+<!-- - [Alegria matinal](https://johnywalves.com.br/comic-29/)
+<!-- - [Motivação Criativa](https://johnywalves.com.br/comic-28/)
+<!-- - [Escrito por ChatGPT](https://johnywalves.com.br/comic-27/)
+<!-- - [Análise profissional](https://johnywalves.com.br/comic-26/)
+<!-- - [Lidando com Erros](https://johnywalves.com.br/comic-25/)
 <!-- BLOG-POST-LIST:END -->
 
+<!-- 
 ---
 
 **EN**  
@@ -64,5 +66,12 @@
 </p>
 
 ---
+-->
+<h3 align="center">Tirinhas Diárias - pt-br</h3>
+<div align="center">
 
+<!-- TIRINHA:START -->
 
+<!-- TIRINHA:END -->
+
+</div>
