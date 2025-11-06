@@ -32,9 +32,9 @@
     <img height="165" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=marcio-dados&show_icons=true&include_all_commits=true&count_private=true"/>
   </picture>
   <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=marcio-dados&layout=compact&langs_count=8&theme=dark" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=marcio-dados&layout=compact&langs_count=8" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-    <img height="165" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcio-dados&layout=compact&langs_count=8"/>
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=marcio-dados&layout=compact&langs_count=5&theme=dark" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=marcio-dados&layout=compact&langs_count=5" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <img height="165" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcio-dados&layout=compact&langs_count=5"/>
   </picture>
 </div>
 
