@@ -67,7 +67,7 @@ jobs:
           fi
           # Adiciona e commita as mudanças
           git add README.md assets/tirinha.jpg
-          git commit -m "task: atualiza tirinha do dia" || echo "Nada para commitar"
+          git commit -m "task: update perfil" || echo "Nada para commitar"
           # Push com fallback se rolar corrida entre jobs
           git push --set-upstream origin bot/tirinha || (
             echo "Push rejeitado (non-fast-forward). Tentando com --force-with-lease..."
@@ -93,7 +93,7 @@ jobs:
             });
 
             let pr;
-            const title = 'Atualiza tirinha do dia';
+            const title = 'update perfil';
             const body = [
               'Atualização automática do bloco de tirinha no README.',
               '- Atualiza `assets/tirinha.jpg`',
