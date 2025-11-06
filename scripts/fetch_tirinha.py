@@ -95,7 +95,7 @@ def update_readme(image_rel_path, post_url):
     new_block = (
         f'{start}\n'
         f'<a href="{post_url}">\n'
-        f'  <img src="{image_rel_path}" alt="Tirinha do dia" width="50%" />\n'
+        f'  <img src="{image_rel_path}" alt="Tirinha do dia" width="75%" />\n'
         f'</a>\n'
         f'<br/>\n'
         f'<sub>Fonte: <a href="https://www.tirinhas.com.br/">tirinhas.com.br</a></sub>\n'
