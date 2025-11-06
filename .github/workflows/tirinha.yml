@@ -49,17 +49,30 @@ jobs:
           fi
           echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
 
-      - name: Preparar commit na branch fixa
+      - name: Preparar commit na branch fixa (com fetch/rebase e fallback)
         if: steps.diff.outputs.changed == 'yes'
         shell: bash
         run: |
           set -e
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -B bot/tirinha
+          # Se a branch remota existir, traga-a; senão, crie a partir da main
+          if git ls-remote --exit-code --heads origin bot/tirinha >/dev/null 2>&1; then
+            git fetch origin bot/tirinha:bot/tirinha
+            git checkout bot/tirinha
+            # Rebase para evitar non-fast-forward
+            git rebase origin/bot/tirinha || (echo "Rebase falhou, fazendo merge rápido" && git rebase --abort && git merge --no-edit origin/bot/tirinha)
+          else
+            git checkout -B bot/tirinha
+          fi
+          # Adiciona e commita as mudanças
           git add README.md assets/tirinha.jpg
           git commit -m "chore: atualiza tirinha do dia" || echo "Nada para commitar"
-          git push --set-upstream origin bot/tirinha
+          # Push com fallback se rolar corrida entre jobs
+          git push --set-upstream origin bot/tirinha || (
+            echo "Push rejeitado (non-fast-forward). Tentando com --force-with-lease..."
+            git push --force-with-lease origin bot/tirinha
+          )
 
       - name: Criar/atualizar Pull Request (bot/tirinha → main)
         if: steps.diff.outputs.changed == 'yes'
