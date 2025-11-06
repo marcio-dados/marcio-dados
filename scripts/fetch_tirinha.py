@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from PIL import Image
 import argparse
 
-ROOT = Path(__file__).resolve().parents[1] / "marcio-dados"
+ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 ASSETS_DIR = ROOT / "assets"
 ASSETS_DIR.mkdir(exist_ok=True)
