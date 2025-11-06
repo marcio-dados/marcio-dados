@@ -1,14 +1,18 @@
 name: Generate Datas
 
-on: [] ## OFF por hora
- ## schedule: # execute every 12 hours
- ##   - cron: "* */12 * * *"
- ## workflow_dispatch:
+## schedule: # execute every 12 hours
+##   - cron: "* */12 * * *"
+## workflow_dispatch:
+  
+
+on:
+  workflow_dispatch:  # só roda manualmente na aba Actions
 
 jobs:
   build:
     name: Jobs to update datas
     runs-on: ubuntu-latest
+    if: ${{ false }}  # hard kill do job (remove quando quiser reativar)
     steps:
       # Snake Animation
       - uses: Platane/snk@master
