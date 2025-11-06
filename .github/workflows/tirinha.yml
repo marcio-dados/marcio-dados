@@ -43,8 +43,10 @@ jobs:
           python scripts/fetch_tirinha.py
 
       - name: Abrir Pull Request (branch fixa)
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.PR_TOKEN }}        # PAT com repo/pull_requests
           commit-message: "chore: atualiza tirinha do dia"
           branch: bot/tirinha              # <<< branch fixa
           title: "Atualiza tirinha do dia"
@@ -60,3 +62,20 @@ jobs:
             automated
             tirinha
           delete-branch: true
+
+      # (Opcional) Auto-approve, se sua org permitir que o usuário do PAT aprove
+      - name: Auto-approve PR
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: hmarr/auto-approve-action@v4
+        with:
+          github-token: ${{ secrets.PR_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+
+      # Habilita o auto-merge (precisa "Allow auto-merge" ON nas Settings do repo)
+      - name: Habilitar Auto-merge
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.PR_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash                 # 'merge' | 'rebase' | 'squash'
