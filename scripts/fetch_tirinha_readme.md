@@ -206,7 +206,7 @@ concurrency:
 
 jobs:
   update:
-    name: Run fetch_tirinha.py e abrir PR
+    name: Rodar script e abrir PR (branch fixa)
     runs-on: ubuntu-latest
 
     steps:
@@ -219,7 +219,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
+          # Sem cache para não exigir requirements/pyproject.toml
+          # cache: "pip"
 
       - name: Instalar dependências
         run: |
@@ -230,33 +231,24 @@ jobs:
         run: |
           python marcio-dados/scripts/fetch_tirinha.py
 
-      - name: Verificar mudanças e abrir branch
-        id: commit
-        run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name  "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git checkout -B main
-            git add marcio-dados/README.md marcio-dados/assets/tirinha.jpg || true
-            git commit -m "chore: atualiza tirinha do dia"
-            git push --force --set-upstream origin main
-            echo "pushed=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Sem mudanças para commitar."
-            echo "pushed=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Abrir Pull Request
-        if: steps.commit.outputs.pushed == 'true'
+      - name: Abrir Pull Request (branch fixa)
         uses: peter-evans/create-pull-request@v6
         with:
-          branch: main
+          commit-message: "chore: atualiza tirinha do dia"
+          branch: bot/tirinha              # <<< branch fixa
           title: "Atualiza tirinha do dia"
           body: |
             Atualização automática do bloco de tirinha no README.
             - Atualiza `marcio-dados/assets/tirinha.jpg`
             - Reescreve o trecho entre `<!-- TIRINHA:START -->` e `<!-- TIRINHA:END -->`
-          base: ${{ github.ref_name }}
+          base: ${{ github.event.repository.default_branch }}
+          add-paths: |
+            marcio-dados/README.md
+            marcio-dados/assets/tirinha.jpg
+          labels: |
+            automated
+            tirinha
+          delete-branch: true
 ```
 
 > Ajuste a timezone do cron se preferir; o exemplo roda 10:00 UTC (07:00 em São Paulo, UTC-3).
