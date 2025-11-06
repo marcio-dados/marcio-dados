@@ -46,7 +46,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.PR_TOKEN }}        # PAT com repo/pull_requests
+          token: ${{ secrets.GITHUB_TOKEN }}     # autor = github-actions[bot]
           commit-message: "chore: atualiza tirinha do dia"
           branch: bot/tirinha              # <<< branch fixa
           title: "Atualiza tirinha do dia"
