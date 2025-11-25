@@ -1,9 +1,11 @@
 import os
 import re
+from io import BytesIO
 from pathlib import Path
 
 import requests
 from lxml import html
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -23,10 +25,6 @@ HEADERS = {
 
 # Lista de publicações (<li>)
 XPATH_LIST_ITEMS = '//*[@id="main-content"]/section[1]/div/section[3]/ul/li'
-
-# Onde salvar as capas
-ASSETS_DIR = Path("assets")
-FILE_NAMES = ["img_ult_post.jpg", "img_penult_post.jpg"]
 
 
 def fetch_latest_newsletter_posts(url: str, limit: int = 2):
@@ -70,7 +68,8 @@ def fetch_latest_newsletter_posts(url: str, limit: int = 2):
         if hrefs:
             # tenta pegar algo mais "artigo" e menos "login"
             preferred = [
-                h for h in hrefs if "newsletters" in h or "feed/update" in h]
+                h for h in hrefs if "newsletters" in h or "feed/update" in h
+            ]
             link = preferred[0] if preferred else hrefs[0]
 
         if not link:
@@ -80,7 +79,6 @@ def fetch_latest_newsletter_posts(url: str, limit: int = 2):
             link = "https://www.linkedin.com" + link
 
         # ---------- IMAGEM (CAPA) ----------
-        # Padrão que você mapeou:
         # //*[@id="main-content"]/section[1]/div/section[3]/ul/li[n]/div/div[2]/img
         img_nodes = li.xpath("./div/div[2]/img")
         image_url = ""
@@ -108,25 +106,43 @@ def fetch_latest_newsletter_posts(url: str, limit: int = 2):
 
 def download_image(url: str, path: Path) -> bool:
     """
-    Faz o download da imagem para 'path'.
+    Faz o download da imagem para 'path', convertendo para JPEG válido.
     Retorna True se deu certo, False se falhou.
     """
     if not url:
+        print(f"[WARN] URL vazia para salvar em {path}")
         return False
 
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30, stream=True)
+        resp = requests.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
     except Exception as e:
         print(f"[WARN] Erro ao baixar imagem {url}: {e}")
         return False
 
+    content_type = resp.headers.get("Content-Type", "")
+    print(f"[INFO] Content-Type de {url}: {content_type}")
+
+    # Se não for imagem, provavelmente HTML de login/bloqueio → aborta
+    if not content_type.startswith("image/"):
+        print(
+            f"[WARN] URL {url} não retornou imagem (Content-Type: {content_type}). "
+            f"Não será salva em {path}"
+        )
+        return False
+
     path.parent.mkdir(parents=True, exist_ok=True)
 
-    with open(path, "wb") as f:
-        for chunk in resp.iter_content(chunk_size=8192):
-            if chunk:
-                f.write(chunk)
+    try:
+        img = Image.open(BytesIO(resp.content))
+        # garante RGB para JPEG
+        if img.mode in ("RGBA", "P"):
+            img = img.convert("RGB")
+        img.save(path, format="JPEG", quality=90)
+        print(f"[INFO] Imagem válida salva em {path}")
+    except Exception as e:
+        print(f"[WARN] Erro ao processar imagem {url}: {e}")
+        return False
 
     return True
 
@@ -137,35 +153,43 @@ def update_readme_ult_post(post_title, post_url, tag="ULT", img_post="img_ult_po
     md = README.read_text(encoding="utf-8")
     if start not in md or end not in md:
         raise RuntimeError(
-            f"Âncoras <!-- NEWSLETTER_{tag}:START/END --> não encontradas no README.md")
+            f"Âncoras <!-- NEWSLETTER_{tag}:START/END --> não encontradas no README.md"
+        )
 
     new_block = (
-        f'{start}\n'
+        f"{start}\n"
         f'<span style="font-size: 1.13em; color: inherit;">{post_title}</span><br>\n'
-        f'<a \n'
+        f"<a \n"
         f'   href="{post_url}"\n'
         f'   title="{post_title}"\n'
-        f'> \n'
-        f'<img \n'
+        f"> \n"
+        f"<img \n"
         f'   src="assets/{img_post}.jpg" \n'
         f'   alt="{post_title}" \n'
         f'   width="55%" \n'
-        f'/>\n'
-        f'</a>\n'
-        f'<br/>\n'
-        f'\n{end}'
+        f"/>\n"
+        f"</a>\n"
+        f"<br/>\n"
+        f"\n{end}"
     )
     pattern = re.compile(rf"{re.escape(start)}.*?{re.escape(end)}", re.DOTALL)
     md2 = pattern.sub(new_block, md)
 
     if md2 != md:
         README.write_text(md2, encoding="utf-8")
+        print(f"[INFO] README.md atualizado para bloco {tag}")
         return True
+
+    print(f"[INFO] Nenhuma mudança no bloco {tag} do README.md")
     return False
 
 
 def main():
     posts = fetch_latest_newsletter_posts(NEWSLETTER_URL, limit=2)
+
+    if not posts:
+        print("[WARN] Nenhum post retornado da newsletter.")
+        return
 
     # baixa imagens e salva em /assets
     for idx, post in enumerate(posts):
@@ -179,26 +203,21 @@ def main():
 
         file_path = ASSETS_DIR / FILE_NAMES[idx]
         ok = download_image(image_url, file_path)
-        if ok:
-            pass
-            ### print(f"[INFO] Imagem salva em {file_path}")
-        else:
-            pass
-           ### print(f"[WARN] Falha ao salvar imagem em {file_path}")
+        if not ok:
+            print(f"[WARN] Falha ao salvar imagem em {file_path}")
 
     # retorno em lista: [ [titulo, link], [titulo, link] ]
     return_post = [[p["title"], p["link"]] for p in posts]
     update_readme_ult_post(
         post_title=return_post[0][0],
-        post_url=return_post[0][1]
+        post_url=return_post[0][1],
     )
     update_readme_ult_post(
         post_title=return_post[1][0],
         post_url=return_post[1][1],
         tag="PENULT",
-        img_post="img_penult_post"
+        img_post="img_penult_post",
     )
-
 
 if __name__ == "__main__":
     main()
