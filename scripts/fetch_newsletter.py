@@ -123,13 +123,12 @@ def _detect_format_from_bytes(bts: bytes):
         return None
 
 
-def download_image(url: str, path: Path, prefer_convert_to_jpeg: bool = True) -> bool:
+def download_image(url: str, path: Path, convert_to_webp: bool = True) -> bool:
     """
     Baixa a imagem de 'url', detecta o formato real e salva em disco.
 
-    - Se possível, converte para JPEG e salva com o mesmo 'stem' passado em `path`.
-    - Se não conseguir converter, salva no formato original (webp, png, etc.)
-      com a extensão correspondente.
+    - Se possível, converte para WEBP e salva como <stem>.webp.
+    - Se não conseguir converter, salva no formato original (png, jpg, webp etc.).
     - Se o conteúdo não for imagem (HTML de login, erro etc.), não sobrescreve nada.
     """
     if not url:
@@ -176,34 +175,31 @@ def download_image(url: str, path: Path, prefer_convert_to_jpeg: bool = True) ->
     }
     ext = fmt_to_ext.get(fmt, f".{fmt}")
 
-    # Tenta converter para JPEG (ideal para README)
-    if prefer_convert_to_jpeg and fmt not in ("jpeg", "jpg"):
+    # Preferência: converter tudo para WEBP otimizado
+    if convert_to_webp:
         try:
             img = Image.open(BytesIO(content_bytes))
 
-            # tratar transparência
-            if img.mode in ("RGBA", "LA") or (
-                img.mode == "P" and "transparency" in img.info
-            ):
-                background = Image.new("RGBA", img.size, (255, 255, 255, 255))
-                background.alpha_composite(img.convert("RGBA"))
-                img = background.convert("RGB")
-            elif img.mode != "RGB":
-                img = img.convert("RGB")
+            # Para WEBP, podemos manter transparência normalmente
+            # Ajuste mínimo de modo
+            if img.mode not in ("RGB", "RGBA"):
+                img = img.convert("RGBA")
 
-            jpeg_path = path.with_suffix(".jpg")
-            jpeg_path.parent.mkdir(parents=True, exist_ok=True)
-            img.save(jpeg_path, format="JPEG", quality=90)
+            webp_path = path.with_suffix(".webp")
+            webp_path.parent.mkdir(parents=True, exist_ok=True)
+
+            # quality 80 + method 6 costuma ser bom equilíbrio
+            img.save(webp_path, format="WEBP", quality=80, method=6)
             img.close()
 
-            print(f"[INFO] Imagem convertida para JPEG: {jpeg_path}")
+            print(f"[INFO] Imagem convertida para WEBP: {webp_path}")
             return True
         except UnidentifiedImageError as e:
-            print(f"[WARN] PIL não conseguiu abrir para converter: {e}.")
+            print(f"[WARN] PIL não conseguiu abrir para converter em WEBP: {e}.")
         except Exception as e:
-            print(f"[WARN] Falha ao converter para JPEG: {e}.")
+            print(f"[WARN] Falha ao converter para WEBP: {e}.")
 
-    # Fallback: salva no formato original (webp, png, etc.)
+    # Fallback: salva no formato original
     dest = path.with_suffix(ext)
     try:
         dest.parent.mkdir(parents=True, exist_ok=True)
@@ -222,16 +218,15 @@ def _resolve_image_src(img_post: str) -> str:
     para usar no README (assets/img_ult_post.xxx).
     """
     stem_path = ASSETS_DIR / img_post
-    possible_exts = [".jpg", ".jpeg", ".png", ".webp", ".gif", ".bmp", ".tif"]
+    possible_exts = [".webp", ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tif"]
 
     for ext in possible_exts:
         candidate = stem_path.with_suffix(ext)
         if candidate.exists():
-            # caminho relativo a partir da raiz do repo
             return f"assets/{candidate.name}"
 
-    # fallback: assume .jpg (caso nada exista)
-    return f"assets/{img_post}.jpg"
+    # fallback: assume .webp se nada existir
+    return f"assets/{img_post}.webp"
 
 
 def update_readme_ult_post(post_title, post_url, tag="ULT", img_post="img_ult_post"):

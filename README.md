@@ -77,14 +77,14 @@
 </h3>
 
 <div align="center">
-  <!-- NEWSLETTER_ULT:START -->
+<!-- NEWSLETTER_ULT:START -->
 <span style="font-size: 1.13em; color: inherit;">Cuidado com quem você segue: a diferença entre professores e gurus</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
    title="Cuidado com quem você segue: a diferença entre professores e gurus"
 > 
 <img 
-   src="assets/img_ult_post.jpg" 
+   src="assets/img_ult_post.webp" 
    alt="Cuidado com quem você segue: a diferença entre professores e gurus" 
    width="55%" 
 />
@@ -97,7 +97,7 @@
 <a> <br> </a>
 
 <div align="center">
-  <!-- NEWSLETTER_PENULT:START -->
+<!-- NEWSLETTER_PENULT:START -->
 <span style="font-size: 1.13em; color: inherit;">O Complexo de Macunaíma na Alta Gestão:
 Quando o Brasil Desconfia de Si Mesmo</span><br>
 <a 
@@ -106,7 +106,7 @@ Quando o Brasil Desconfia de Si Mesmo</span><br>
 Quando o Brasil Desconfia de Si Mesmo"
 > 
 <img 
-   src="assets/img_penult_post.jpg" 
+   src="assets/img_penult_post.webp" 
    alt="O Complexo de Macunaíma na Alta Gestão:
 Quando o Brasil Desconfia de Si Mesmo" 
    width="55%" 
