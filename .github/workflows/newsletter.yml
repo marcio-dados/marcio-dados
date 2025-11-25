@@ -1,0 +1,44 @@
+name: Fetch Newsletter - Fala Ulisses
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 */3 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-newsletter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests lxml
+
+      - name: Run fetch_newsletter script
+        run: |
+          python scripts/fetch_newsletter.py
+
+      - name: Commit and push changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md assets/img_ult_post.jpg assets/img_penult_post.jpg
+            git commit -m "chore: update newsletter cards [skip ci]" || echo "No changes to commit"
+            git push
+          else
+            echo "No changes to commit."
+          fi
