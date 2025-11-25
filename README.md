@@ -1,6 +1,3 @@
-![test](./100.jpg)
-
-
 <!-- Perfil: github.com/marcio-dados -->
 <!-- Dica: para máxima estabilidade, suba ícones em /assets e troque URLs externas por caminhos locais. -->
 
