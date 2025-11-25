@@ -137,5 +137,6 @@ Quando o Brasil Desconfia de Si Mesmo"
 </a>
 <br/>
 <sub>Fonte: <a href="https://www.tirinhas.com.br/">tirinhas.com.br</a></sub>
+
 <!-- TIRINHA:END -->
 </div>
