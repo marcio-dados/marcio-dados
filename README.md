@@ -129,7 +129,7 @@
 <h3 align="center">Tirinhas Diárias - pt-br</h3>
 <div align="center">
 <!-- TIRINHA:START -->
-<a href="https://www.tirinhas.com.br/postagem.php?id=1765831476">
+<a href="https://www.tirinhas.com.br/postagem.php?id=1759204148">
   <img src="assets/tirinha.jpg" alt="Tirinha do dia" width="75%" />
 </a>
 <br/>
