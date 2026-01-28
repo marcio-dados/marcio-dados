@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Ulisses, a tormenta e o diagnóstico</span><br>
+<span style="font-size: 1.13em; color: inherit;">A Arte da Escuta Ativa</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Ulisses, a tormenta e o diagnóstico"
+   title="A Arte da Escuta Ativa"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="Ulisses, a tormenta e o diagnóstico" 
+   alt="A Arte da Escuta Ativa" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">A Sabedoria do Bambu: Quando Engolir o Sapo é um Ato de Liderança</span><br>
+<span style="font-size: 1.13em; color: inherit;">Ulisses, a tormenta e o diagnóstico</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="A Sabedoria do Bambu: Quando Engolir o Sapo é um Ato de Liderança"
+   title="Ulisses, a tormenta e o diagnóstico"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="A Sabedoria do Bambu: Quando Engolir o Sapo é um Ato de Liderança" 
+   alt="Ulisses, a tormenta e o diagnóstico" 
    width="55%" 
 />
 </a>
