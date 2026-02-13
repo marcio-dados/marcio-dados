@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">A ansiedade de mudar e, o custo de não mudar</span><br>
+<span style="font-size: 1.13em; color: inherit;">A difícil arte de ser um líder autêntico</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="A ansiedade de mudar e, o custo de não mudar"
+   title="A difícil arte de ser um líder autêntico"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="A ansiedade de mudar e, o custo de não mudar" 
+   alt="A difícil arte de ser um líder autêntico" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">A Arte da Escuta Ativa</span><br>
+<span style="font-size: 1.13em; color: inherit;">A ansiedade de mudar e, o custo de não mudar</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="A Arte da Escuta Ativa"
+   title="A ansiedade de mudar e, o custo de não mudar"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="A Arte da Escuta Ativa" 
+   alt="A ansiedade de mudar e, o custo de não mudar" 
    width="55%" 
 />
 </a>
