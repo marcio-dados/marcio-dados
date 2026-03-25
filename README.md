@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">R.E.D.E: A arquitetura invisível da liderança em tempos de pressão extrema</span><br>
+<span style="font-size: 1.13em; color: inherit;">Conselheiros no Limite: Quando a Governança Deixa de Ser Observadora e Passa a…</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="R.E.D.E: A arquitetura invisível da liderança em tempos de pressão extrema"
+   title="Conselheiros no Limite: Quando a Governança Deixa de Ser Observadora e Passa a…"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="R.E.D.E: A arquitetura invisível da liderança em tempos de pressão extrema" 
+   alt="Conselheiros no Limite: Quando a Governança Deixa de Ser Observadora e Passa a…" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">A corrida pela IA pode estar distraindo CEOs da verdadeira vantagem competitiva</span><br>
+<span style="font-size: 1.13em; color: inherit;">R.E.D.E: A arquitetura invisível da liderança em tempos de pressão extrema</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="A corrida pela IA pode estar distraindo CEOs da verdadeira vantagem competitiva"
+   title="R.E.D.E: A arquitetura invisível da liderança em tempos de pressão extrema"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="A corrida pela IA pode estar distraindo CEOs da verdadeira vantagem competitiva" 
+   alt="R.E.D.E: A arquitetura invisível da liderança em tempos de pressão extrema" 
    width="55%" 
 />
 </a>
