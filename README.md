@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Letramento em IA: o verdadeiro divisor de águas da alta gestão</span><br>
+<span style="font-size: 1.13em; color: inherit;">A arte de simplificar o complexo: o verdadeiro trabalho invisível do CEO</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Letramento em IA: o verdadeiro divisor de águas da alta gestão"
+   title="A arte de simplificar o complexo: o verdadeiro trabalho invisível do CEO"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="Letramento em IA: o verdadeiro divisor de águas da alta gestão" 
+   alt="A arte de simplificar o complexo: o verdadeiro trabalho invisível do CEO" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Moisés e a Liderança em Tempos de Ruptura: O Deserto Não é um Erro, é o Caminho</span><br>
+<span style="font-size: 1.13em; color: inherit;">Letramento em IA: o verdadeiro divisor de águas da alta gestão</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Moisés e a Liderança em Tempos de Ruptura: O Deserto Não é um Erro, é o Caminho"
+   title="Letramento em IA: o verdadeiro divisor de águas da alta gestão"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="Moisés e a Liderança em Tempos de Ruptura: O Deserto Não é um Erro, é o Caminho" 
+   alt="Letramento em IA: o verdadeiro divisor de águas da alta gestão" 
    width="55%" 
 />
 </a>
