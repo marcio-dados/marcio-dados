@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">A pergunta certa é mais poderosa do que a resposta rápida</span><br>
+<span style="font-size: 1.13em; color: inherit;">Legado: a âncora invisível que sustenta a liderança</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="A pergunta certa é mais poderosa do que a resposta rápida"
+   title="Legado: a âncora invisível que sustenta a liderança"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="A pergunta certa é mais poderosa do que a resposta rápida" 
+   alt="Legado: a âncora invisível que sustenta a liderança" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Quando a vitória acontece, três decisões definem a cultura</span><br>
+<span style="font-size: 1.13em; color: inherit;">A pergunta certa é mais poderosa do que a resposta rápida</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Quando a vitória acontece, três decisões definem a cultura"
+   title="A pergunta certa é mais poderosa do que a resposta rápida"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="Quando a vitória acontece, três decisões definem a cultura" 
+   alt="A pergunta certa é mais poderosa do que a resposta rápida" 
    width="55%" 
 />
 </a>
