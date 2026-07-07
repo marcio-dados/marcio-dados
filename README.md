@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Antes da Solução, Existe a Escuta</span><br>
+<span style="font-size: 1.13em; color: inherit;">Quando a derrota ensina mais que a vitória: a eliminação do Brasil e a coragem…</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Antes da Solução, Existe a Escuta"
+   title="Quando a derrota ensina mais que a vitória: a eliminação do Brasil e a coragem…"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="Antes da Solução, Existe a Escuta" 
+   alt="Quando a derrota ensina mais que a vitória: a eliminação do Brasil e a coragem…" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Continuar Aprendendo: Competência Fundamental do Líder</span><br>
+<span style="font-size: 1.13em; color: inherit;">Antes da Solução, Existe a Escuta</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Continuar Aprendendo: Competência Fundamental do Líder"
+   title="Antes da Solução, Existe a Escuta"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="Continuar Aprendendo: Competência Fundamental do Líder" 
+   alt="Antes da Solução, Existe a Escuta" 
    width="55%" 
 />
 </a>
