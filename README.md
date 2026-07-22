@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">A Gestão à Brasileira em Tempos de Incerteza Global: fraquezas históricas ou…</span><br>
+<span style="font-size: 1.13em; color: inherit;">O Complexo de Alice na Alta Gestão</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="A Gestão à Brasileira em Tempos de Incerteza Global: fraquezas históricas ou…"
+   title="O Complexo de Alice na Alta Gestão"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="A Gestão à Brasileira em Tempos de Incerteza Global: fraquezas históricas ou…" 
+   alt="O Complexo de Alice na Alta Gestão" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Quando a derrota ensina mais que a vitória: a eliminação do Brasil e a coragem…</span><br>
+<span style="font-size: 1.13em; color: inherit;">A Gestão à Brasileira em Tempos de Incerteza Global: fraquezas históricas ou…</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Quando a derrota ensina mais que a vitória: a eliminação do Brasil e a coragem…"
+   title="A Gestão à Brasileira em Tempos de Incerteza Global: fraquezas históricas ou…"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="Quando a derrota ensina mais que a vitória: a eliminação do Brasil e a coragem…" 
+   alt="A Gestão à Brasileira em Tempos de Incerteza Global: fraquezas históricas ou…" 
    width="55%" 
 />
 </a>
