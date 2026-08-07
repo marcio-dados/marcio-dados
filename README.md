@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Geração de valor na era de rupturas: a nova disciplina da alta gestão</span><br>
+<span style="font-size: 1.13em; color: inherit;">Como criar uma empresa capaz de sobreviver porque muda continuamente?</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Geração de valor na era de rupturas: a nova disciplina da alta gestão"
+   title="Como criar uma empresa capaz de sobreviver porque muda continuamente?"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="Geração de valor na era de rupturas: a nova disciplina da alta gestão" 
+   alt="Como criar uma empresa capaz de sobreviver porque muda continuamente?" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">O Complexo de Alice na Alta Gestão</span><br>
+<span style="font-size: 1.13em; color: inherit;">Geração de valor na era de rupturas: a nova disciplina da alta gestão</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="O Complexo de Alice na Alta Gestão"
+   title="Geração de valor na era de rupturas: a nova disciplina da alta gestão"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="O Complexo de Alice na Alta Gestão" 
+   alt="Geração de valor na era de rupturas: a nova disciplina da alta gestão" 
    width="55%" 
 />
 </a>
