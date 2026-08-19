@@ -78,14 +78,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">O que nunca mudará na liderança?</span><br>
+<span style="font-size: 1.13em; color: inherit;">Antes de decidir, enxergue o sistema</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="O que nunca mudará na liderança?"
+   title="Antes de decidir, enxergue o sistema"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="O que nunca mudará na liderança?" 
+   alt="Antes de decidir, enxergue o sistema" 
    width="55%" 
 />
 </a>
@@ -98,14 +98,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Como criar uma empresa capaz de sobreviver porque muda continuamente?</span><br>
+<span style="font-size: 1.13em; color: inherit;">O que nunca mudará na liderança?</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Como criar uma empresa capaz de sobreviver porque muda continuamente?"
+   title="O que nunca mudará na liderança?"
 > 
 <img 
    src="assets/img_penult_post.webp" 
-   alt="Como criar uma empresa capaz de sobreviver porque muda continuamente?" 
+   alt="O que nunca mudará na liderança?" 
    width="55%" 
 />
 </a>
