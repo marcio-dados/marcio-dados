@@ -19,10 +19,12 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (+github-action; tirinha-readme)"
 }
 
-HOME = "https://www.tirinhas.com.br/"
+# Busca filtrada pelo personagem Édi — a home geral do site fica sem post novo por
+# semanas/meses, mas o personagem específico é o que interessa pro README.
+SEARCH_URL = "https://www.tirinhas.com.br/?busca=&personagem=%C3%89di"
 
 def find_latest_post_url():
-    r = requests.get(HOME, headers=HEADERS, timeout=30)
+    r = requests.get(SEARCH_URL, headers=HEADERS, timeout=30)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, "lxml")
 
@@ -35,7 +37,7 @@ def find_latest_post_url():
         # Heurísticas comuns do site: postagem.php?id=...
         if "postagem.php?id=" in href or "postagem" in href or "post" in href:
             # Resolve para absoluta sempre
-            abs_url = urljoin(HOME, href)
+            abs_url = urljoin(SEARCH_URL, href)
             candidates.append(abs_url)
 
     # Fallback: qualquer link com id=
@@ -43,12 +45,12 @@ def find_latest_post_url():
         for a in soup.find_all("a", href=True):
             href = a["href"].strip()
             if "id=" in href:
-                candidates.append(urljoin(HOME, href))
+                candidates.append(urljoin(SEARCH_URL, href))
 
     if not candidates:
-        raise RuntimeError("Não encontrei link de post na home.")
+        raise RuntimeError("Não encontrei link de post pra 'Édi' na busca.")
 
-    # Primeiro geralmente é o mais recente na home
+    # Primeiro resultado da busca é o mais recente
     return candidates[0]
 
 def extract_first_image(post_url):
@@ -63,7 +65,7 @@ def extract_first_image(post_url):
         if not src:
             continue
         low = src.lower()
-        if any(ext in low for ext in [".jpg", ".jpeg", ".png"]):
+        if any(ext in low for ext in [".jpg", ".jpeg", ".png", ".webp"]):
             if not any(bad in low for bad in ["icon", "logo", "sprite", "icone", "emoji"]):
                 good.append(urljoin(post_url, src))  # resolve relativo à página do post
 

@@ -184,15 +184,16 @@ Imagem: https://www.tirinhas.com.br/media/...
 ---
 
 ## Automação (CI/CD)
-Exemplo de **GitHub Actions** (workflow `tirinha.yml`) executando diariamente às 7h (America/Sao_Paulo) e abrindo PR com a atualização:
+Exemplo de **GitHub Actions** (workflow `tirinha.yml`) executando a cada 2 semanas
+(dias 1 e 15, 7h America/Sao_Paulo) e abrindo PR com a atualização:
 
 ```yaml
 name: Atualizar Tirinha
 
 on:
-  # Agenda diária às 07:00 (America/Sao_Paulo = 10:00 UTC)
+  # Dias 1 e 15 do mês, 07:00 America/Sao_Paulo (~a cada 2 semanas) = 10:00 UTC
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "0 10 1,15 * *"
   # Execução manual on-demand
   workflow_dispatch:
 

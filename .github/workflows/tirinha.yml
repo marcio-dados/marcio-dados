@@ -2,7 +2,7 @@ name: Atualizar Tirinha
 
 on:
   schedule:
-    - cron: "0 10 * * *"   # 07:00 America/Sao_Paulo
+    - cron: "0 10 1,15 * *"   # dias 1 e 15 do mês, 07:00 America/Sao_Paulo (~a cada 2 semanas)
   workflow_dispatch:
 
 permissions:
