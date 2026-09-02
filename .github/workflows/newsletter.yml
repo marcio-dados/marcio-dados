@@ -1,4 +1,4 @@
-name: Fetch Newsletter - Fala Ulisses
+name: Fetch Newsletters
 
 on:
   workflow_dispatch:
@@ -36,7 +36,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           if [ -n "$(git status --porcelain)" ]; then
-            git add README.md assets/img_ult_post.webp assets/img_penult_post.webp
+            git add README.md assets/img_ult_post.webp assets/img_cafe_ult_post.webp assets/img_cafe_penult_post.webp
             git commit -m "chore: update newsletter cards [skip ci]" || echo "No changes to commit"
             git push
           else

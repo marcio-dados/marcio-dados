@@ -82,45 +82,77 @@
 -->
 <a> <br> </a>
 <h3 align="center">
+  CAFÉ COM IA (5 minutinhos diários)<br>
+</h3>
+
+<div align="center">
+<!-- NEWSLETTER_CAFE_ULT:START -->
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 2 de Setembro de 2026 - Edição #476</span><br>
+<a 
+   href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
+   title="Café com IA - 2 de Setembro de 2026 - Edição #476"
+> 
+<img 
+   src="assets/img_cafe_ult_post.webp" 
+   alt="Café com IA - 2 de Setembro de 2026 - Edição #476" 
+   width="55%" 
+/>
+</a>
+<br/>
+
+<!-- NEWSLETTER_CAFE_ULT:END -->
+</div>
+
+<a> <br> </a>
+
+<div align="center">
+<!-- NEWSLETTER_CAFE_PENULT:START -->
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 1 de Setembro de 2026 - Edição #475</span><br>
+<a 
+   href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
+   title="Café com IA - 1 de Setembro de 2026 - Edição #475"
+> 
+<img 
+   src="assets/img_cafe_penult_post.webp" 
+   alt="Café com IA - 1 de Setembro de 2026 - Edição #475" 
+   width="55%" 
+/>
+</a>
+<br/>
+
+<!-- NEWSLETTER_CAFE_PENULT:END -->
+<br>
+  <sub>
+    Fonte: 
+    <a href="https://www.linkedin.com/newsletters/caf%C3%A9-com-ia-as-5-melhores-7177536405340864512/">
+      linkedin.com/newsletters/café-com-ia
+    </a>
+  </sub>
+</div>
+
+<a> <br> </a>
+---
+<a> <br> </a>
+<h3 align="center">
   Newsletter - Fala, Ulisses!<br>
 </h3>
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">O Paradoxo da Dependência de IA</span><br>
+<span style="font-size: 1.13em; color: inherit;">O Paradoxo da Produtividade da IA: quando produzir mais pode nos ensinar menos</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="O Paradoxo da Dependência de IA"
+   title="O Paradoxo da Produtividade da IA: quando produzir mais pode nos ensinar menos"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="O Paradoxo da Dependência de IA" 
+   alt="O Paradoxo da Produtividade da IA: quando produzir mais pode nos ensinar menos" 
    width="55%" 
 />
 </a>
 <br/>
 
 <!-- NEWSLETTER_ULT:END -->
-</div>
-
-<a> <br> </a>
-
-<div align="center">
-<!-- NEWSLETTER_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Antes de decidir, enxergue o sistema</span><br>
-<a 
-   href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Antes de decidir, enxergue o sistema"
-> 
-<img 
-   src="assets/img_penult_post.webp" 
-   alt="Antes de decidir, enxergue o sistema" 
-   width="55%" 
-/>
-</a>
-<br/>
-
-<!-- NEWSLETTER_PENULT:END -->
 <br>
   <sub>
     Fonte: 

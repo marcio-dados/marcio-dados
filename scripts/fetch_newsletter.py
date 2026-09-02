@@ -14,9 +14,18 @@ README = ROOT / "README.md"
 ASSETS_DIR = ROOT / "assets"
 ASSETS_DIR.mkdir(exist_ok=True)
 
-FILE_NAMES = ["img_ult_post.jpg", "img_penult_post.jpg"]
-
-NEWSLETTER_URL = "https://www.linkedin.com/newsletters/fala-ulisses-7391469228467499008/"
+NEWSLETTERS = [
+    {
+        "url": "https://www.linkedin.com/newsletters/fala-ulisses-7391469228467499008/",
+        "tags": ["ULT"],
+        "imgs": ["img_ult_post"],
+    },
+    {
+        "url": "https://www.linkedin.com/newsletters/caf%C3%A9-com-ia-as-5-melhores-7177536405340864512/",
+        "tags": ["CAFE_ULT", "CAFE_PENULT"],
+        "imgs": ["img_cafe_ult_post", "img_cafe_penult_post"],
+    },
+]
 
 HEADERS = {
     "User-Agent": (
@@ -271,47 +280,38 @@ def update_readme_ult_post(post_title, post_url, tag="ULT", img_post="img_ult_po
 
 
 def main():
-    posts = fetch_latest_newsletter_posts(NEWSLETTER_URL, limit=2)
+    for nl in NEWSLETTERS:
+        count = len(nl["tags"])
+        posts = fetch_latest_newsletter_posts(nl["url"], limit=count)
 
-    if not posts:
-        print("[WARN] Nenhum post retornado da newsletter.")
-        return
-
-    # baixa imagens e salva em /assets
-    for idx, post in enumerate(posts):
-        if idx >= len(FILE_NAMES):
-            break
-
-        image_url = post.get("image_url")
-        if not image_url:
-            print(f"[WARN] Post {idx} sem URL de imagem, pulando download.")
+        if not posts:
+            print(f"[WARN] Nenhum post retornado para {nl['url']}.")
             continue
 
-        # usamos o stem do nome para permitir trocar extensão
-        # ex.: img_ult_post.jpg -> stem = img_ult_post
-        stem_name = Path(FILE_NAMES[idx]).stem
-        file_path = ASSETS_DIR / stem_name
+        # baixa imagens e salva em /assets
+        for idx, post in enumerate(posts):
+            if idx >= len(nl["imgs"]):
+                break
 
-        ok = download_image(image_url, file_path)
-        if not ok:
-            print(f"[WARN] Falha ao salvar imagem para {stem_name}")
+            image_url = post.get("image_url")
+            if not image_url:
+                print(f"[WARN] Post {idx} sem URL de imagem, pulando download.")
+                continue
 
-    # retorno em lista: [ [titulo, link], [titulo, link] ]
-    return_post = [[p["title"], p["link"]] for p in posts]
+            file_path = ASSETS_DIR / nl["imgs"][idx]
+            ok = download_image(image_url, file_path)
+            if not ok:
+                print(f"[WARN] Falha ao salvar imagem para {nl['imgs'][idx]}")
 
-    update_readme_ult_post(
-        post_title=return_post[0][0],
-        post_url=return_post[0][1],
-        tag="ULT",
-        img_post="img_ult_post",
-    )
-
-    update_readme_ult_post(
-        post_title=return_post[1][0],
-        post_url=return_post[1][1],
-        tag="PENULT",
-        img_post="img_penult_post",
-    )
+        for idx, post in enumerate(posts):
+            if idx >= len(nl["tags"]):
+                break
+            update_readme_ult_post(
+                post_title=post["title"],
+                post_url=post["link"],
+                tag=nl["tags"][idx],
+                img_post=nl["imgs"][idx],
+            )
 
 
 if __name__ == "__main__":
