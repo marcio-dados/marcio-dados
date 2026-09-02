@@ -7,19 +7,28 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/marcio-dados"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/marciofjr"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://github.com/marcio-dados"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-111?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="mailto:marcioferreira_junior@hotmail.com"><img alt="Outlook" src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
   <a href="https://api.whatsapp.com/send?phone=5516988308470&text=Oi%20M%C3%A1rcio%2C%20vim%20pelo%20GitHub."><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
  <!--  <a href="https://www.kaggle.com/marcio-dados"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"></a> -->
   <a href="https://pt.wikipedia.org/wiki/Ribeir%C3%A3o_Preto"><img alt="Local" src="https://img.shields.io/badge/Ribeir%C3%A3o%20Preto%20%E2%80%93%20SP-555?style=for-the-badge"></a>
 </p>
-   
+
+<p align="center">
+  Tech Lead de Engenharia de Dados, liderando arquitetura e plataforma analítica em cloud
+  (AWS/Azure) com Databricks, dbt e Airflow — foco em governança de dados e eficiência de
+  custo (FinOps) na escala de produção.
+</p>
+
 <details>
   <summary>🎓 Formação</summary>
 
-- **MBAs**: AI & Data Manager; Mineração de Dados & Análise Preditiva; Ciência de Dados & ML  
-- **Graduação**: Bacharelado em Ciências Contábeis; Gestão de Negócios  
+- **Strides** — Programa Executivo, AI & Data Leadership *(2025–2026)*
+- **DSA – Data Science Academy** — Arquitetura de Dados & DataOps 4.0 *(2026–2027)*
+- **UNINTER** — Pós-graduação, Data Mining & Análise Preditiva *(2025)*
+- **UNINTER** — MBA, Data Science & Machine Learning *(2021–2022)*
+- **Centro Universitário Moura Lacerda** — Bacharelado, Ciências Contábeis *(2014–2017)*
 </details>
 
 ---
