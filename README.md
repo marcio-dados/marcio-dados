@@ -3,7 +3,6 @@
 
 <h1 align="center">Márcio Ferreira Junior</h1>
 <p align="center">
-  Python • SQL • DBT • Databricks • Airflow • Power BI • AWS • Azure • Governança de Dados
 </p>
 
 <p align="center">
@@ -16,22 +15,23 @@
 </p>
 
 <p align="center">
-  Tech Lead de Engenharia de Dados, liderando arquitetura e plataforma analítica em cloud
-  (AWS/Azure) com Databricks, dbt e Airflow — foco em governança de dados e eficiência de
-  custo (FinOps) na escala de produção.
+  Tech Lead Analytics | Data Engineering & Architecture
 </p>
 
-<details>
-  <summary>🎓 Formação</summary>
+<!--<details> -->
+<p
+<summary>🎓 Formações Acadêmicas: </summary>
 
 - **Strides** — Programa Executivo, AI & Data Leadership *(2025–2026)*
 - **DSA – Data Science Academy** — Arquitetura de Dados & DataOps 4.0 *(2026–2027)*
 - **UNINTER** — Pós-graduação, Data Mining & Análise Preditiva *(2025)*
 - **UNINTER** — MBA, Data Science & Machine Learning *(2021–2022)*
 - **Centro Universitário Moura Lacerda** — Bacharelado, Ciências Contábeis *(2014–2017)*
-</details>
+<!-- </details> -->
+</p>
 
----
+<a> <br> </a>
+
 <!-- 
 ## Estatísticas
 <div align="center">
@@ -74,16 +74,15 @@
   </a>
 </p>
 
-
-
-
-
 ---
 -->
+--- 
 <a> <br> </a>
+
 <h3 align="center">
   CAFÉ COM IA (5 minutinhos diários)<br>
 </h3>
+
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_ULT:START -->
