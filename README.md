@@ -86,14 +86,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 4 de Setembro de 2026 - Edição #478</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 9 de Setembro de 2026 - Edição #482</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 4 de Setembro de 2026 - Edição #478"
+   title="Café com IA - 9 de Setembro de 2026 - Edição #482"
 > 
 <img 
    src="assets/img_cafe_ult_post.webp" 
-   alt="Café com IA - 4 de Setembro de 2026 - Edição #478" 
+   alt="Café com IA - 9 de Setembro de 2026 - Edição #482" 
    width="55%" 
 />
 </a>
@@ -106,14 +106,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 3 de Setembro de 2026 - Edição #477</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 8 de Setembro de 2026 - Edição #481</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 3 de Setembro de 2026 - Edição #477"
+   title="Café com IA - 8 de Setembro de 2026 - Edição #481"
 > 
 <img 
    src="assets/img_cafe_penult_post.webp" 
-   alt="Café com IA - 3 de Setembro de 2026 - Edição #477" 
+   alt="Café com IA - 8 de Setembro de 2026 - Edição #481" 
    width="55%" 
 />
 </a>
@@ -138,14 +138,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">O Paradoxo da Produtividade da IA: quando produzir mais pode nos ensinar menos</span><br>
+<span style="font-size: 1.13em; color: inherit;">O Paradoxo de Circe: quando a IA pode nos fazer pensar menos, ou pensar melhor</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="O Paradoxo da Produtividade da IA: quando produzir mais pode nos ensinar menos"
+   title="O Paradoxo de Circe: quando a IA pode nos fazer pensar menos, ou pensar melhor"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="O Paradoxo da Produtividade da IA: quando produzir mais pode nos ensinar menos" 
+   alt="O Paradoxo de Circe: quando a IA pode nos fazer pensar menos, ou pensar melhor" 
    width="55%" 
 />
 </a>
