@@ -86,14 +86,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 11 de Setembro de 2026 - Edição #484</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 15 de Setembro de 2026 - Edição #486</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 11 de Setembro de 2026 - Edição #484"
+   title="Café com IA - 15 de Setembro de 2026 - Edição #486"
 > 
 <img 
    src="assets/img_cafe_ult_post.webp" 
-   alt="Café com IA - 11 de Setembro de 2026 - Edição #484" 
+   alt="Café com IA - 15 de Setembro de 2026 - Edição #486" 
    width="55%" 
 />
 </a>
@@ -106,14 +106,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 10 de Setembro de 2026 - Edição #483</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 11 de Setembro de 2026 - Edição #484</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 10 de Setembro de 2026 - Edição #483"
+   title="Café com IA - 11 de Setembro de 2026 - Edição #484"
 > 
 <img 
    src="assets/img_cafe_penult_post.webp" 
-   alt="Café com IA - 10 de Setembro de 2026 - Edição #483" 
+   alt="Café com IA - 11 de Setembro de 2026 - Edição #484" 
    width="55%" 
 />
 </a>
@@ -138,14 +138,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">O Paradoxo de Circe: quando a IA pode nos fazer pensar menos, ou pensar melhor</span><br>
+<span style="font-size: 1.13em; color: inherit;">Se a IA sabe mais do que nossos alunos, o que uma escola de negócios deve…</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="O Paradoxo de Circe: quando a IA pode nos fazer pensar menos, ou pensar melhor"
+   title="Se a IA sabe mais do que nossos alunos, o que uma escola de negócios deve…"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="O Paradoxo de Circe: quando a IA pode nos fazer pensar menos, ou pensar melhor" 
+   alt="Se a IA sabe mais do que nossos alunos, o que uma escola de negócios deve…" 
    width="55%" 
 />
 </a>
