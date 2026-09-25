@@ -86,14 +86,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 21 de Setembro de 2026 - Edição #490</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 24 de Setembro de 2026 - Edição #493</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 21 de Setembro de 2026 - Edição #490"
+   title="Café com IA - 24 de Setembro de 2026 - Edição #493"
 > 
 <img 
    src="assets/img_cafe_ult_post.webp" 
-   alt="Café com IA - 21 de Setembro de 2026 - Edição #490" 
+   alt="Café com IA - 24 de Setembro de 2026 - Edição #493" 
    width="55%" 
 />
 </a>
@@ -106,14 +106,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 18 de Setembro de 2026 - Edição #489</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 23 de Setembro de 2026 - Edição #492</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 18 de Setembro de 2026 - Edição #489"
+   title="Café com IA - 23 de Setembro de 2026 - Edição #492"
 > 
 <img 
    src="assets/img_cafe_penult_post.webp" 
-   alt="Café com IA - 18 de Setembro de 2026 - Edição #489" 
+   alt="Café com IA - 23 de Setembro de 2026 - Edição #492" 
    width="55%" 
 />
 </a>
@@ -138,14 +138,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Se a IA sabe mais do que nossos alunos, o que uma escola de negócios deve…</span><br>
+<span style="font-size: 1.13em; color: inherit;">Você pode estar jogando o jogo errado da competição</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Se a IA sabe mais do que nossos alunos, o que uma escola de negócios deve…"
+   title="Você pode estar jogando o jogo errado da competição"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="Se a IA sabe mais do que nossos alunos, o que uma escola de negócios deve…" 
+   alt="Você pode estar jogando o jogo errado da competição" 
    width="55%" 
 />
 </a>
