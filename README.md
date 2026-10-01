@@ -86,14 +86,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 25 de Setembro de 2026 - Edição #494</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 30 de Setembro de 2026 - Edição #497</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 25 de Setembro de 2026 - Edição #494"
+   title="Café com IA - 30 de Setembro de 2026 - Edição #497"
 > 
 <img 
    src="assets/img_cafe_ult_post.webp" 
-   alt="Café com IA - 25 de Setembro de 2026 - Edição #494" 
+   alt="Café com IA - 30 de Setembro de 2026 - Edição #497" 
    width="55%" 
 />
 </a>
@@ -106,14 +106,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 24 de Setembro de 2026 - Edição #493</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 28 de Setembro de 2026 - Edição #495</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 24 de Setembro de 2026 - Edição #493"
+   title="Café com IA - 28 de Setembro de 2026 - Edição #495"
 > 
 <img 
    src="assets/img_cafe_penult_post.webp" 
-   alt="Café com IA - 24 de Setembro de 2026 - Edição #493" 
+   alt="Café com IA - 28 de Setembro de 2026 - Edição #495" 
    width="55%" 
 />
 </a>
@@ -138,14 +138,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Você pode estar jogando o jogo errado da competição</span><br>
+<span style="font-size: 1.13em; color: inherit;">Serenidade estratégica: como liderar quando a realidade também entra em disputa</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Você pode estar jogando o jogo errado da competição"
+   title="Serenidade estratégica: como liderar quando a realidade também entra em disputa"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="Você pode estar jogando o jogo errado da competição" 
+   alt="Serenidade estratégica: como liderar quando a realidade também entra em disputa" 
    width="55%" 
 />
 </a>
