@@ -86,14 +86,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 30 de Setembro de 2026 - Edição #497</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 2 de Outubro de 2026 - Edição #499</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 30 de Setembro de 2026 - Edição #497"
+   title="Café com IA - 2 de Outubro de 2026 - Edição #499"
 > 
 <img 
    src="assets/img_cafe_ult_post.webp" 
-   alt="Café com IA - 30 de Setembro de 2026 - Edição #497" 
+   alt="Café com IA - 2 de Outubro de 2026 - Edição #499" 
    width="55%" 
 />
 </a>
@@ -106,14 +106,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 28 de Setembro de 2026 - Edição #495</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 1 de Outubro de 2026 - Edição #498</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 28 de Setembro de 2026 - Edição #495"
+   title="Café com IA - 1 de Outubro de 2026 - Edição #498"
 > 
 <img 
    src="assets/img_cafe_penult_post.webp" 
-   alt="Café com IA - 28 de Setembro de 2026 - Edição #495" 
+   alt="Café com IA - 1 de Outubro de 2026 - Edição #498" 
    width="55%" 
 />
 </a>
