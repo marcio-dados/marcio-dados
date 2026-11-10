@@ -86,14 +86,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 6 de Novembro de 2026 - Edição #525</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 10 de Novembro de 2026 - Edição #527</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 6 de Novembro de 2026 - Edição #525"
+   title="Café com IA - 10 de Novembro de 2026 - Edição #527"
 > 
 <img 
    src="assets/img_cafe_ult_post.webp" 
-   alt="Café com IA - 6 de Novembro de 2026 - Edição #525" 
+   alt="Café com IA - 10 de Novembro de 2026 - Edição #527" 
    width="55%" 
 />
 </a>
@@ -106,14 +106,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_CAFE_PENULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Café com IA - 5 de Novembro de 2026 - Edição #524</span><br>
+<span style="font-size: 1.13em; color: inherit;">Café com IA - 9 de Novembro de 2026 - Edição #526</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Fcaf%25C3%25A9-com-ia-as-5-melhores-7177536405340864512&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Café com IA - 5 de Novembro de 2026 - Edição #524"
+   title="Café com IA - 9 de Novembro de 2026 - Edição #526"
 > 
 <img 
    src="assets/img_cafe_penult_post.webp" 
-   alt="Café com IA - 5 de Novembro de 2026 - Edição #524" 
+   alt="Café com IA - 9 de Novembro de 2026 - Edição #526" 
    width="55%" 
 />
 </a>
@@ -138,14 +138,14 @@
 
 <div align="center">
 <!-- NEWSLETTER_ULT:START -->
-<span style="font-size: 1.13em; color: inherit;">Governança corporativa no Brasil: amadurecemos ou apenas aprendemos a cumprir…</span><br>
+<span style="font-size: 1.13em; color: inherit;">Quando o barco afunda, a negação é fatal: a diferença entre resiliência e…</span><br>
 <a 
    href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fnewsletters%2Ffala-ulisses-7391469228467499008&trk=article-ssr-frontend-newsletters_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=PONCHO_ARTICLE&_f=guest-reporting"
-   title="Governança corporativa no Brasil: amadurecemos ou apenas aprendemos a cumprir…"
+   title="Quando o barco afunda, a negação é fatal: a diferença entre resiliência e…"
 > 
 <img 
    src="assets/img_ult_post.webp" 
-   alt="Governança corporativa no Brasil: amadurecemos ou apenas aprendemos a cumprir…" 
+   alt="Quando o barco afunda, a negação é fatal: a diferença entre resiliência e…" 
    width="55%" 
 />
 </a>
